@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="../assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Homepage</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+
+  <svg style="display: none;">
+    <symbol id="arrowleft" viewBox="0 0 1024 1024">
+      <g>
+        <path
+          d="M752.145 0c8.685 0 17.572 3.434 24.237 10.099 13.33 13.33 13.33 35.143 0 48.473L320.126 515.03l449.591 449.591c13.33 13.33 13.33 35.144 0 48.474-13.33 13.33-35.142 13.33-48.472 0L247.418 539.268c-13.33-13.33-13.33-35.144 0-48.474L727.91 10.1C734.575 3.435 743.46.002 752.146.002z" />
+      </g>
+    </symbol>
+  </svg>
+  
+  <svg style="display: none;">
+    <symbol id="logo__big" viewBox="0 0 1024 1024">
+      <g>
+        <path
+          d="M752.145 0c8.685 0 17.572 3.434 24.237 10.099 13.33 13.33 13.33 35.143 0 48.473L320.126 515.03l449.591 449.591c13.33 13.33 13.33 35.144 0 48.474-13.33 13.33-35.142 13.33-48.472 0L247.418 539.268c-13.33-13.33-13.33-35.144 0-48.474L727.91 10.1C734.575 3.435 743.46.002 752.146.002z" />
+      </g>
+    </symbol>
+  </svg>
+<div class="page">
+  <!--Header-->
+  <header class="header" id="header">
+    <div class="container">
+  
+      <div class="header__inner">
+        <a class="logo" href="index.html" data-scroll="#intro">
+          <img src="assets/images/Layer70.png" alt=""></a>
+  
+        <nav class="nav" id="nav">
+          <a class="nav__link   active" href="#" data-scroll="#resto">Ресторан</a>
+          <a class="nav__link" href="#" data-scroll="#price">Меню</a>
+          <a class="nav__link" href="#" data-scroll="#pictures">Галерея</a>
+          <a class="nav__link" href="#" data-scroll="#contacts">Контакты</a>
+          <a class="nav__link" href="#" data-scroll="#news">Новости</a>
+        </nav>
+  
+        <button class="burger" type="button" id="navToggle">
+          <span class="burger__line">1</span>
+          <span class="burger__line">2</span>
+          <span class="burger__line">3</span>
+          <span class="burger__line">4</span>
+        </button>
+      </div>
+  
+    </div><!-- /.container -->
+  </header>
+
+  <div class="content">
+    <!-- Content -->
+    
+    <!-- Resto -->
+    <div class="resto__img">
+      <div class="container">
+    
+        <div class="resto" id="intro">
+          <img class="logo__big" src="assets/images/logo__big.png" alt="">
+          <div class="resto__subtitle">HATCH MEAT</div>
+          <div class="resto__square">
+            <img src="assets/images/resto.png" alt="">
+          </div>
+          <div class="resto__text">Ресторан может быть респектабельным или демократичным, все равно самое
+          дорогое в нем — атмосфера, которая появляется из тонкого, почти мистического сочетания ингредиентов:
+          место-идея-еда-обстановка-люди-любовь...</div>
+        </div>
+    
+      </div><!-- /.container -->
+    </div>
+    
+    <!-- Banner1 -->
+    <div class="banner1" id="resto" data-scrollspy="#resto">
+      <div class="container  container--banner">
+        <div class="border1">
+          <img src="images/border.png" alt="">
+        </div>
+          <div class="banner__menu">
+            <div class="banner__title">ОКРОШКА МЯСНАЯ</div>
+            <div class="banner__text">Окрошка – популярное блюдо русской кухни. Его название происходит от слова «крошить». Мелко нарезанные свежие овощи,
+            залитые холодным квасом с добавлением мелко струганного мяса.</div>
+            <div class="banner__weight">250 г / 250 ккал.</div>
+            <div class="banner__price">360, — ₽</div>
+          </div>
+      </div>
+    </div>
+    
+    
+    <!-- Menu -->
+    <div class="container">
+      <div class="menu" id="price" data-scrollspy="#price">
+        <div class="menu__title">Меню</div>
+        <div class="menu__text">От нас невозможно уйти голодным. К вашим услугам лучший шеф-повар Москвы.</div>
+    
+    
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <img class="accordion-img" src="assets/images/menu/Закуски.png" alt="">
+                Горячие закуски
+              </button>
+            </h2>
+    
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu">
+                  <div>
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/menu/01.jpg" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                      <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                      <p class="card-text">220 г / 150 ккал.</p>
+                      <p class="card-price">210, — ₽</p>
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div>
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/menu/02.jpg" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                      <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                      <p class="card-text">220 г / 150 ккал.</p>
+                      <p class="card-price">350, — ₽</p>
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div>
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/menu/03.jpg" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                      <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                      <p class="card-text">50 г / 90 ккал.</p>
+                      <p class="card-price">150, — ₽</p>
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div>
+                  <div class="card">
+                    <img class="card-img-top" src="assets/images/menu/04.jpg" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                      <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                      <p class="card-text">220 г / 150 ккал.</p>
+                      <p class="card-price">270, — ₽</p>
+                    </div>
+                  </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/pexels-milan-4639391.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/pexels-julia-filirovska-7140426.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div><!-- /.accordion-item -->
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                <img class="accordion-img" src="assets/images/menu/2.Салаты.png" alt="">
+                Салаты
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev2">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next2">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu2">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-chan-walrus-1059905.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-engin-akyurt-1435893.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-iina-luoto-1211887.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-leonardo-luz-14174958.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-ruslan-khmelevsky-14118125.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/салаты/pexels-вадим-маркин-2102948.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div><!-- /.accordion-item -->
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                <img class="accordion-img" src="assets/images/menu/3.Супы.png" alt="">
+                Супы
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev3">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next3">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu3">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-augustinus-martinus-noppé-12561886.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-cats-coming-1731535.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-foodie-factor-539451.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-naim-benjelloun-1618925.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-valeria-boltneva-1707270.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/супы/pexels-valeria-boltneva-688802.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                <img class="accordion-img" src="assets/images/menu/4.Мясо.png" alt="">
+                Мясо
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev4">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next4">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu4">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/мясо/pexels-pascal-claivaz-410648.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/мясо/pexels-pixabay-416471.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/мясо/pexels-samer-daboul-2233730.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/мясо/pexels-valeria-boltneva-1683549.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/мясо/pexels-valeria-boltneva-1860205.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/04.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                <img class="accordion-img" src="assets/images/menu/5.Гарниры.png" alt="">
+                Гарниры
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev5">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next5">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu5">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-geraud-pfeiffer-6608543.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-marta-dzedyshko-2067418.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-pixabay-273825.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-polina-tankilevitch-4518839.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-sam-lion-5710170.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/гарниры/pexels-trista-chen-723198.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix">
+                <img class="accordion-img" src="assets/images/menu/6.Десерты.png" alt="">
+                Десерты
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev6">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next6">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu6">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-abhinav-goswami-291528.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-anna-tukhfatullina-food-photographerstylist-2693447.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-jhon-marquez-2373520.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-pixabay-45202.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-suzy-hazelwood-1098592.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/десерты/pexels-suzy-hazelwood-1126359.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                aria-expanded="false" aria-controls="collapseSeven">
+                <img class="accordion-img accordion-img-drinks" src="assets/images/menu/7.Напитки.png" alt="">
+                Напитки
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+              data-bs-parent="#accordionExample">
+    
+              <div class="accordion-body">
+    
+                <button class="accordion__arrow  accordion__arrow--prev" type="button" id="accordion-arrow-prev7">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <button class="accordion__arrow accordion__arrow--next" type="button" id="accordion-arrow-next7">
+                  <svg class="accordion__arrow-icon">
+                    <use xlink:href="#arrowleft"></use>
+                  </svg>
+                </button>
+    
+                <div class="card-group" id="menu7">
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-anastasia-belousova-3522560.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Тарелка свежих овощей с чесночно-творожным соусом</h5>
+                        <p class="card-text">Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">210, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-chevanon-photography-302899.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сырные пятачки из собственной сыровани</h5>
+                        <p class="card-text">В пряном масле с вялеными томатами и травами</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">350, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-george-dolgikh-1666061.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сыр из собственной сыроварни</h5>
+                        <p class="card-text">Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой
+                          горчицей</p>
+                        <p class="card-text">50 г / 90 ккал.</p>
+                        <p class="card-price">150, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-isabella-mendes-338713.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-joe-l-2789328.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/menu/напитки/pexels-olena-bohovyk-1772124.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Сало трёх видов с хреном и горчицей</h5>
+                        <p class="card-text">Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                        <p class="card-text">220 г / 150 ккал.</p>
+                        <p class="card-price">270, — ₽</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div><!-- /.card-group -->
+              </div><!-- /.accordion-body -->
+            </div>
+          </div>
+    
+    
+        </div><!-- /.accordion -->
+    
+      </div><!-- /.menu -->
+    </div>
+    
+    
+    <!-- Banner2 -->
+    <div class="banner2">
+      <div class="container  container--banner">
+          <div class="border2">
+            <img src="images/border2.png" alt="">
+          </div>
+          <div class="banner__menu  banner__menu-banner2">
+            <div class="banner__title-meat">КЛАССИЧЕСКИЙ СТЕЙК
+            ФИЛЕ МИНЬОН</div>
+            <div class="banner__text">Центральная часть нежнейшей, высокосортной говяжьей вырезки со свежими овощами в прикуску, с пикантным кислосладким
+            соусом и гарниром на выбор.</div>
+            <div class="banner__weight">450 г / 350 ккал.</div>
+            <div class="banner__price">210, — ₽</div>
+          </div>
+        </div>
+    </div>
+    
+    
+    <!-- Pictures -->
+    <div class="pictures" id="pictures"  data-scrollspy="#pictures">
+      <div>
+        <div class="picture__item" data-modal="#modal_project_1">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-pixabay-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_2">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-elevate-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_3">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-burak-the-weekender-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_4">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-fidel-hajj-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_5">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-elle-hughes-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_6">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-resto-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_7">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-chan-walrus-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_8">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-400.jpg" alt=""></a>
+        </div>
+      </div>
+      <div>
+        <div class="picture__item" data-modal="#modal_project_9">
+          <a href="#"><img class="picture__icon" src="assets/images/pictures/pexels-michelle-riach-400.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- Maps -->
+    <!--
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="map" id="contacts" data-scrollspy="#contacts">
+          <div id="map" style="width: 100%; height: 900px;"></div>
+        </div>
+    
+        <div class="map__content">
+          <div class="map__content-Moskow">
+            <div class="map__content-title">Честный стейк</div>
+            <div class="map__content-adress">Москва, Московский пр.186</div>
+            <div class="map__content-tel">тел. (+495) 373-03-43</div>
+            <div class="map__content-time">ВРЕМЯ РАБОТЫ:</div>
+            <div class="map__content-monday">Пн. - Пят. 11:00—23:00,</div>
+            <div class="map__content-sunday">Сб. 09:00—20:00</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    
+    
+    <div class="container">
+      <div>
+      <div class="map__title"  id="contacts" data-scrollspy="#contacts">Контакты</div>
+    
+        <div class="row">
+          <div class="col-lg-8 mb-4">
+            <script class="map" type="text/javascript" charset="utf-8" async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac64b844d17bcf40450c426f6e428a2f1eff7a6899faaf910756c711e8b6fd78a&amp;max-width=900&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+          </div>
+    
+          <div class="col-lg-4 mb-4">
+            <div class="map__subtitle">
+              Адрес:
+            </div>
+            <div class="map__text">
+              Россия, Санкт-Петербург, Невский проспект, 30
+            </div>
+            <div class="map__subtitle">
+              Телефон:
+            </div>
+            <a class="tel" href="tel:+8126571258">(+812) 657-12-58</a>
+            <div class="map__subtitle">
+              Время работы:
+            </div>
+            <div class="map__text">
+              Пн. - Пят. 11:00—23:00, <br>
+              Сб. - Вс. 12:00—00:00
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    
+    <!--
+    <div id="container-places">
+      <div class="container-header">
+        <h3>Рестораны</h3>
+        <img class="container-places_img" src="img/branch.png" />
+      </div>
+      <div class="map-box">
+        <div id="map-container"></div>
+        <div class="places-slider_wrap">
+          <div class="places-slider">
+            <div class="swiper-container">
+              <div class="slider-box swiper-wrapper"></div>
+            </div>
+            <div class="controls-box">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    -->
+    
+    
+    <!--
+    <div>
+    <div class="r-map__content">
+      <div class="contact">
+        <div class="contact__item contact__item_address">
+          <h2 class="contact__title">Адрес:</h2>
+          <div class="contact__info">г. Минск, ул. Кульман, 40</div>
+        </div>
+        <div class="contact__item contact__item_phone">
+          <h2 class="contact__title">Телефоны:</h2>
+          <ul class="contact__info">
+            <li class="contact__info-item"><a class="phone__link" href="tel:+375293965858" itemprop="telephone"
+                tabindex="0">+375 (29) 396 58 58</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+" itemprop="telephone">Старший администратор:
+                +375(29) 8 300 300</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+" itemprop="telephone">e-mail:
+                pivo@druzya.by</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+375445954972" itemprop="telephone">Банкетный
+                менеджер: +375 (44) 595 49 72</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+375293385858" itemprop="telephone">e-mail:
+                banket@druzya.by</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+375445508869" itemprop="telephone">Караоке:
+                +375 (29) 338 58 58</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+" itemprop="telephone">Биргарден: +375 (44) 550
+                88 69</a></li>
+            <li class="contact__info-item"><a class="phone__link" href="tel:+" itemprop="telephone">Поиск фотографий:
+                druziaminsk@mail.ru</a></li>
+            <li><a href="https://druzya.by/partneram">Партнерам</a></li>
+          </ul>
+        </div>
+        <div class="contact__item contact__item_time">
+          <h2 class="contact__title">Время работы:</h2>
+          <ul class="contact__info">
+            <li class="contact__info-item">Ресторан-пивоварня "Друзья": Вс-Чт: 10:00-02:00</li>
+            <li class="contact__info-item">Пт-Сб: 10:00-03:00</li>
+            <li class="contact__info-item">Караоке-бар "Друзья": Вс-Чт: 21:00-07:00</li>
+            <li class="contact__info-item">Пт-Сб: 21:00-09:00</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div> -->
+    
+    <!-- <script>
+    
+      ymaps.ready(function () {
+        var myMap = new ymaps.Map('map', {
+          center: [55.751574, 37.573856],
+          zoom: 5
+        },
+        {
+          searchControlProvider: 'yandex#search'
+        });
+    
+    
+        myMap.behaviors.disable('scrollZoom');
+    
+          myMap.behaviors.disable('drag');
+    
+          // Создаём макет содержимого.
+          MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div class="map" style="background-color: #000; color: red; font-weight: bold; font-size: 42px; scroll: false;">$[properties.iconContent]</div>'
+    
+          ),
+    
+          myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Честный стейк. Кликни для уточнения информации',
+            balloonContent: 'Москва, Московский проспект.186, телефон (+495) 373-03-43. ВРЕМЯ РАБОТЫ: Пн. - Пят.  11:00 — 23:00, Сб. 09:00—20:00'
+          }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'assets/images/resto.png',
+            // Размеры метки.
+            iconImageSize: [30, 42],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
+          }),
+    
+          myPlacemarkWithContent = new ymaps.Placemark([59.936027551505006, 30.322993092557628], {
+            hintContent: 'Че Гевара. Кликни для уточнения информации',
+            balloonContent: 'Санкт-Петербург, Невский проспект, 30,                                               Тел. (+812) 657-12 - 58.                             ВРЕМЯ РАБОТЫ: Пн. - Пят.  11:00 — 23:00, Сб. 09:00—20:00'
+          }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#imageWithContent',
+            // Своё изображение иконки метки.
+            iconImageHref: 'assets/images/resto.png',
+            // Размеры метки.
+            iconImageSize: [30, 42],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-24, -24],
+            // Смещение слоя с содержимым относительно слоя с картинкой.
+            iconContentOffset: [-5, -38],
+            // Макет содержимого.
+            iconContentLayout: MyIconContentLayout
+          });
+    
+          myPlacemarkWithContent2 = new ymaps.Placemark([57.81459950811429, 28.35128165026862], {
+          hintContent: 'Стейкхауз. Кликни для уточнения информации',
+          balloonContent: 'Псков, улица Льва Толстого, 4.         Тел. (+657) 577-29 - 68. ВРЕМЯ РАБОТЫ: Пн. - Пят.  11:00 — 23:00, Сб. 09:00 — 20:00'
+        }, {
+          // Опции.
+          // Необходимо указать данный тип макета.
+          iconLayout: 'default#imageWithContent',
+          // Своё изображение иконки метки.
+          iconImageHref: 'assets/images/resto.png',
+          // Размеры метки.
+          iconImageSize: [30, 42],
+          // Смещение левого верхнего угла иконки относительно
+          // её "ножки" (точки привязки).
+          iconImageOffset: [-24, -24],
+          // Смещение слоя с содержимым относительно слоя с картинкой.
+          iconContentOffset: [-5, -38],
+          // Макет содержимого.
+          iconContentLayout: MyIconContentLayout
+        });
+    
+        myMap.geoObjects
+          .add(myPlacemark)
+          .add(myPlacemarkWithContent)
+          .add(myPlacemarkWithContent2)
+    
+      });
+    </script> -->
+    
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="news" data-scrollspy="#news">
+    <div class="container">
+  
+      <div class="footer__inner">
+  
+        <div class="footer__news">
+  
+          <div class="footer__title">ПРЕССРУМ</div>
+            <div class="footer__item">
+              <a class="footer__icon" href="#" target="_blank">
+                <time class="footer__date" datetime="19-05-2015">19 мая, 2015</time>
+                <div class="footer__article">Компания Leicht Moscow, ресторанный холдинг Fresco Group и ресторан «Вилла Роза» дали старт новому совместному проекту.</div>
+              </a>
+            </div>
+  
+            <div class="footer__item">
+              <a class="footer__icon" href="#" target="_blank">
+                <time class="footer__date" datetime="03-02-2015">3 февраля, 2015</time>
+                <div class="footer__article">Летняя веранда ресторана «Вилла Роза» среди лучших предложений Москвы в Resto.ru – поисковой системе для гурманов.</div>
+              </a>
+            </div>
+  
+            <div class="footer__item">
+              <a class="footer__icon" href="#" target="_blank">
+                <time class="footer__date" datetime="07-09-2015">7 сентября, 2015</time>
+                <div class="footer__article">У нас новая винная карта. Надеемся, что среди многочисленных наименований Вы найдете свое любимое вино.      У нас новая винная карта. Надеемся, что среди многочисленных наименований Вы найдете свое любимое вино.
+                </div>
+              </a>
+            </div>
+        </div>
+  
+      <div class="footer__contacts">
+        <div class="footer__subtitle">Мы в соцсетях</div>
+  
+          <div class="footer__social">
+            <a class="footer__social-item" href="#" target="_blank">
+              <img class="footer__social-icon" src="../assets/images/facebook-svgrepo-com.svg" width="53" alt="">
+            </a>
+            <a class="footer__social-item" href="#" target="_blank">
+              <img class="footer__social-icon" src="../assets/images/twitter-svgrepo-com.svg" width="53" alt="">
+            </a>
+            <a class="footer__social-item" href="#" target="_blank">
+              <img class="footer__social-icon" src="../assets/images/google-plus-svgrepo-com.svg" width="53" alt="">
+            </a>
+          </div>
+  
+          <div class="footer__text">РАССЫЛКА СПЕЦПРЕЛЛОЖЕНИЙ</div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Эл. почта" aria-label="Поиск">
+            <button class="btn btn-outline-success" type="submit">
+              <div class="btn__triangle"></div>
+            </button>
+          </form>
+  
+        </div>
+      </div>
+    </div>
+  </footer></div>
+
+  <!-- Modals -->
+  <div class="modal" id="modal_project_1">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-pixabay-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  
+  
+  <div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-elevate-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  
+  <div class="modal" id="modal_project_3">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-burak-the-weekender-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  <div class="modal" id="modal_project_4">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-fidel-hajj-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  <div class="modal" id="modal_project_5">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-elle-hughes-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  <div class="modal" id="modal_project_6">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-resto-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  
+  <div class="modal" id="modal_project_7">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-chan-walrus-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  
+  <div class="modal" id="modal_project_8">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>
+  
+  
+  <div class="modal" id="modal_project_9">
+    <div class="modal__dialog">
+  
+      <button class="modal__close" type="button">
+        <img src="assets/images/pictures/modal-close.svg" height="40" alt="close" data-close>
+      </button>
+  
+      <div class="modal-work">
+        <div class="modal-work__preview">
+          <img class="modal-work__photo" src="assets/images/pictures/pexels-michelle-riach-1200.jpg" alt="">
+        </div>
+      </div>
+  
+    </div><!-- /.modal-work -->
+  
+  </div><!-- /.modal__dialog -->
+  </div>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/app.min.js"></script>
+</body>
+</html>
